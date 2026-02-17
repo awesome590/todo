@@ -62,4 +62,17 @@ List Card
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding: 24px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}
+.card_info {
+  max-width: 720px;
+  border: black solid 1px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin-right: 16px;
+  padding: 8px 12px;
 }

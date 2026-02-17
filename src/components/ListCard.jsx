@@ -3,12 +3,13 @@ import React from 'react'
 function ListCard() {
     return (
             <div className="list_container">
-                <ul className="list">
-                    <li className="card">
+                <div className="card">
+                    <div className="card_info">
                         <h2 className="card_title">Laundry</h2>
                         <p className="card_description">Use different detergent</p>
-                    </li>
-                </ul>
+                    </div>
+                    <input type="checkbox" />
+                </div>
             </div>
     )
 }
