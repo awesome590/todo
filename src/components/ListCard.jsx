@@ -8,7 +8,7 @@ function ListCard() {
                         <h2 className="card_title">Laundry</h2>
                         <p className="card_description">Use different detergent</p>
                     </div>
-                    <input type="checkbox" />
+                    <input type="checkbox" className="finished"/>
                 </div>
             </div>
     )

@@ -76,3 +76,12 @@ List Card
   margin-right: 16px;
   padding: 8px 12px;
 }
+.finished {
+  width: 16px;
+}
+
+@media(max-width: 480px) {
+  .nav_container {
+    padding: 0 0 0 24px;
+  }
+}
