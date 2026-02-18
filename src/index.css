@@ -29,6 +29,7 @@ button:hover {
   width: 100%;
   max-width: 1200px;
   display: flex;
+  flex-direction: column;
 }
 /*
 Navigation Bar
@@ -62,7 +63,7 @@ List Card
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 24px;
+  padding: 24px 24px 12px 24px;
 }
 .card {
   display: flex;
