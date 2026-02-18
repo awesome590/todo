@@ -51,6 +51,10 @@ Navigation Bar
   line-height: 75px;
   text-align: center;
 }
+
+/*
+Menu
+ */
 .btn_menu {
   padding: 12px 24px;
   font-size: 20px;
@@ -90,6 +94,12 @@ Navigation Bar
   right: 20px;
   padding: 8px;
   color: white;
+}
+.add-task{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 40px;
 }
 
 /*

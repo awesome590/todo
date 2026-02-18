@@ -19,7 +19,7 @@ function Nav() {
                     <button className="btn_menu btn_menu-close" onClick={closeMenu}>
                         <FontAwesomeIcon icon='times'/>
                     </button>
-                    <button className="add=task">Add Task</button>
+                    <button className="add-task">Add Task</button>
                 </div>
             </div>
         </nav>
