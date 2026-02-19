@@ -8,6 +8,9 @@ function Nav() {
     function closeMenu() {
         document.body.classList.remove('menu-open')
     }
+    function addTask() {
+        console.log('add task')
+    }
     return (
         <nav>
             <div className="nav_container">
@@ -19,7 +22,7 @@ function Nav() {
                     <button className="btn_menu btn_menu-close" onClick={closeMenu}>
                         <FontAwesomeIcon icon='times'/>
                     </button>
-                    <button className="add-task">Add Task</button>
+                    <button className="add-task" onClick={addTask}>Add Task</button>
                 </div>
             </div>
         </nav>
