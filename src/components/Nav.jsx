@@ -1,16 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Nav() {
+    //const [tasks, setTasks] = useState([])
+
     function openMenu() {
         document.body.classList += ' menu-open'
     }
     function closeMenu() {
         document.body.classList.remove('menu-open')
     }
-    function addTask() {
-        console.log('add task')
+    function openNewTask() {
+        console.log('open new task')
     }
+    /*
+    function addTask() {
+
+    }
+     */
     return (
         <nav>
             <div className="nav_container">
@@ -22,7 +29,10 @@ function Nav() {
                     <button className="btn_menu btn_menu-close" onClick={closeMenu}>
                         <FontAwesomeIcon icon='times'/>
                     </button>
-                    <button className="add-task" onClick={addTask}>Add Task</button>
+                    <button className="add-task" onClick={openNewTask}>Add Task</button>
+                    <div className="new-task">
+                        <input className="task-input" type="text" placeholder="New Task"/>
+                    </div>
                 </div>
             </div>
         </nav>
