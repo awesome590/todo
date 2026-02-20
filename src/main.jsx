@@ -3,9 +3,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import {library} from "@fortawesome/fontawesome-svg-core"
-import {faBars, faTimes} from '@fortawesome/free-solid-svg-icons'
+import {faBars, faTimes, faCircleArrowRight} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faBars, faTimes)
+library.add(faBars, faTimes, faCircleArrowRight)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

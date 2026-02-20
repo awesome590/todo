@@ -32,6 +32,9 @@ function Nav() {
                     <button className="add-task" onClick={openNewTask}>Add Task</button>
                     <div className="new-task">
                         <input className="task-input" type="text" placeholder="New Task"/>
+                        <button className="btn-add-task">
+                            <FontAwesomeIcon icon='circle-arrow-right'/>
+                        </button>
                     </div>
                 </div>
             </div>
